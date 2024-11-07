@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="TQ~?pRCTSth9F@3pKyg," x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="haWsq[=f%Tt=(Be.?8qN"><field name="i">IconNames.Happy</field></block></statement></block><block type="device_button_event" id="%-]f{}{0Dl|%nE{aa[oj" x="277" y="-2"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="Z.Y-7W1HMW}zRat_Lew."><field name="i">IconNames.Sad</field></block></statement></block><block type="input_logo_event" id="^w(]Kb7}TZi~7y6$S.U1" x="553" y="50"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="device_clear_display" id="qn*qrTW`E?L9?}:w-!k$"></block></statement></block><block type="device_gesture_event" id="KuGD?#)EXHH]nDf7bR.t" x="545" y="213"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_repeat_ext" id="nyG]voaj^;i:d=[_v:+U"><value name="TIMES"><shadow type="math_whole_number" id="9ywD=]/g9LY[%RCTc3FN"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="Y0qL)^9DWV)SC?Qvj^dc"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="{U=#F00YH(%.j+P]ltYF"><field name="LEDS">`
+        . . # . . 
+        # # . # # 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></statement></block></statement></block><block type="input_on_sound" id="^^6K.FD6!f]C:O8TA5EK" x="245" y="292"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="basic_show_icon" id="TT,H^-Pdq|s%ny0gg;aN"><field name="i">IconNames.Heart</field></block></statement></block></xml>
